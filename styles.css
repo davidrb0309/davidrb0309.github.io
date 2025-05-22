@@ -1,0 +1,87 @@
+body {
+  background-color: #f5f0fa;
+  color: #4a2965;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.navbar {
+  background-color: #a266c2;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+header {
+  background-color: #d8b4e2;
+  color: #4a2965;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.section-white {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.section-lila {
+  background-color: #a266c2;
+  color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.btn-custom {
+  background-color: #a266c2;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #8c52aa;
+}
+
+footer {
+  background-color: #4a2965;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  body {
+    font-size: 0.95rem;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header p {
+    font-size: 1.1rem;
+  }
+
+  .section-white,
+  .section-lila {
+    padding: 1.5rem 1rem;
+  }
+
+  .accordion-button {
+    font-size: 1rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.1rem;
+  }
+}
